@@ -27,24 +27,19 @@
         .arrow {
             position: absolute;
             bottom: 120px;
-            right: 120px;
-            font-size: 3rem;
-			opacity: .8;
-			border: none;
-			border-radius: 10px;
-			    transform: rotate(313deg);
+            right: 30px;
+            font-size: 2rem;
             animation: bounce 2s infinite;
         }
         @keyframes bounce {
             0%, 20%, 50%, 80%, 100% {
-                transform: rotate(335deg);
+                transform: translateY(0);
             }
             40% {
                 transform: translateY(-10px);
             }
             60% {
                 transform: translateY(-5px);
-				transform: translateY(-10px) rotate(335deg);
             }
         }
     </style>
